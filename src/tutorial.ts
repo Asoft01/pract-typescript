@@ -11,31 +11,40 @@
 // }; 
 
 // console.log(someObj); 
+///////////////////////////////////////////////////////////////////////////
+// let awesomeName: string = 'shakeAndBake'; 
+// awesomeName = 'something';
+// awesomeName = awesomeName.toUpperCase();
+// console.log(awesomeName);
 
-let awesomeName: string = 'shakeAndBake'; 
-awesomeName = 'something';
-awesomeName = awesomeName.toUpperCase();
-console.log(awesomeName);
+// let amount: number = 20; 
+// amount = 12  - 1;
 
-let amount: number = 20; 
-amount = 12  - 1;
-
-let isAwesome:boolean = true; 
-isAwesome = false; 
+// let isAwesome:boolean = true; 
+// isAwesome = false; 
 // isAwesome = 'shakeAndBake'; 
 
 ////////////////////////////////////////challenge /////////////////////////
-let greeting: string = "Hello, Typescript"; 
-greeting = greeting.toUpperCase(); 
+// let greeting: string = "Hello, Typescript"; 
+// greeting = greeting.toUpperCase(); 
 
-let age: number = 25; 
-age = age + 2; 
+// let age: number = 25; 
+// age = age + 2; 
 
-let isAdult: boolean = age >=18; 
-isAdult = !isAdult; 
-console.log(isAdult); 
+// let isAdult: boolean = age >=18; 
+// isAdult = !isAdult; 
+// console.log(isAdult); 
 
-// greeting = 10; 
-// age = 'thirty'; 
-// isAdult = '25';
-console.log(greeting, age, isAdult); 
+// // greeting = 10; 
+// // age = 'thirty'; 
+// // isAdult = '25';
+// console.log(greeting, age, isAdult); 
+
+/////////////////////////////////////////////////////////////////////////////
+let tax: number | string = 10; 
+tax = 100; 
+tax = '$10'; 
+
+let requestStatus: 'pending' | 'success' | 'error' = 'pending';
+requestStatus = 'success'; 
+requestStatus = 'error'; 
