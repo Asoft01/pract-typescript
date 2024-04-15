@@ -117,7 +117,32 @@ console.log(foundBook?.length);
 // // console.log(mixedArrays);
 
 ///////////////////////////////// Objects in Typescripts ///////////////////////////
-let car:{brand: string, year: number } = {brand: 'toyota', year: 2020};
+// let car:{brand: string, year: number } = {brand: 'toyota', year: 2020};
 
-car.brand = 'ford';
-// car.color
+// car.brand = 'ford';
+// // car.color
+
+// let car1: {brand: string, year: number } = { brand: 'toyota', year: 2020}; 
+
+////////////////////////////////////////////////////////////////////////////////////
+// let book = { title: 'book', cost: 20 }; 
+// let pen = { title: 'pen', cost: 30}; 
+// let notebook = {title: 'notebook'}; 
+
+// let items:{title: string; cost?: number }[] = [book, pen, notebook];
+// console.log(items); 
+
+// if you use readonly, it will not allow you to add extra records 
+// let items:{readonly title: string; cost?: number }[] = [book, pen, notebook];
+// items[0].title = 'new book';
+
+//////////////////////////////////////////////////////////////////////////////////
+let bike: { brand: string; year: number} = { brand: 'yamaha', year:2020}; 
+// bike.year = 'Old';
+
+let laptop:{ brand: string; year: number} = {brand: 'Dell', year: 2023};
+// let laptop2: {brand: string, year: number} = { brand: 'Hp'};
+
+let product1 = { title: 'shirt', price:20};
+let product2 = { title: 'pants'};
+let products: { title: string; price?: number }[] = [product1, product2];
